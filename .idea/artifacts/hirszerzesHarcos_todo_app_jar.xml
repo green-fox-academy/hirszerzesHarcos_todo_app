@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="hirszerzesHarcos_todo_app:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/hirszerzesHarcos_todo_app_jar</output-path>
+    <root id="archive" name="hirszerzesHarcos_todo_app.jar">
+      <element id="module-output" name="hirszerzesHarcos_todo_app" />
+    </root>
+  </artifact>
+</component>
