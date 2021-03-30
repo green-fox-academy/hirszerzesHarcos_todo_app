@@ -1,4 +1,8 @@
-public class ToDoMain {
+package com.company;
+
+import com.company.models.ToDo;
+
+public class Main {
 
   public static void main(String[] args) {
     System.out.println("Hello To Do App!!!");
@@ -20,6 +24,10 @@ public class ToDoMain {
               "    -c   Teljesít egy feladatot";
       System.out.println(lista);
       Integer var = 4;
+      ToDo toDo = new ToDo("valamit kellene csinálni");
+      System.out.println(toDo);
+      toDo.setDone();
+      System.out.println(toDo);
     }
   }
 }
